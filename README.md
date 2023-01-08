@@ -96,7 +96,8 @@ Let us introduce ✨ Docker Compose ✨, a tool for defining and running multi-c
 Docker applications. With Compose, we use a single YAML file to configure everything.
 Then, with a single command, we create and start all the services from the configuration.
 
-We rewrite the same build and run components, but in single yaml file.<br>
+We rewrite the same build and run components, but in single YAML file.
+
 Note. Some things change: for example, the `sleep ininfity` is replaced with
 `command: tail -F anything`.
 
