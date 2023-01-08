@@ -1,0 +1,7 @@
+services:
+  hello_docker_dev_image:
+    build: .
+    container_name: hello_docker_container
+    command: tail -F anything
+    volumes:
+      - absolute\path\to\Hello-Docker-Dev:/hello_docker_dev
