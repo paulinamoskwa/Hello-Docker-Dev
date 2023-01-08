@@ -67,7 +67,7 @@ A tensor from a list
 tensor([1, 2, 3])
 ```
 
-We now modify the `main.py` by adding a simple print:
+We modify the `main.py` by adding a simple print:
 ```python
 import torch
 
