@@ -45,7 +45,7 @@ docker run -d --name=hello_docker_container hello_docker sleep infinity
 
 We add: `-v </host/directory>:</container/directory>`.
 
-The `-v` flag stands for "volume," and it creates a volume that allows to share
+The `-v` flag stands for "volume" and it creates a volume that allows to share
 data between the host machine and the container. When we run a Docker container
 with the `-v` flag, we specify a host directory and a container directory, 
 separated by a colon, to create the volume. 
