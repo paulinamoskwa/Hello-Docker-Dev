@@ -77,7 +77,7 @@ tensor = torch.tensor([1, 2, 3])
 print(tensor)
 ```
 
-Running again the command:
+And, by running again the command:
 ```commandline
 docker exec hello_docker_container python3 main.py
 ```
