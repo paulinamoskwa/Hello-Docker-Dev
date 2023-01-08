@@ -134,7 +134,7 @@ docker-compose down
 Docker Compose is a very powerful tool. We can involve different images in different ways.
 
 For example, suppose we want to launch our own application, and we want to lean
-on Redis. It is possible to simply change the YAML in the following way:
+on Redis.<br>It is possible to simply change the YAML in the following way:
 ```yaml
 services:
   hello_docker_dev_image:
